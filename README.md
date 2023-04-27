@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Link Shortener App
+
+URL Shorteners are tools we use to make links shorter than they actually are. With a URL Shortener, you can transform a long link (maybe for a registration form or article) into a shorter version.
+
+Behind the scenes, the long and short versions of a given link have been stored in some database. Then when a user visits the short link in a browser, the URL Shortener will redirect the user to the long version of the link (where the actual content is found).
+
+## pros
+
+* They promote sharing: Adding shortened URLs on printed materials reduces the number of words readers have to type to copy it. They also make sharing easier in messaging technologies that limit the number of characters in a message.
+* Creates a friendlier URL: Most URL shorteners can be used to generate custom links rather than random numbers in order to make URLs intuitive, more appealing, and easy to remember. These custom links act as an abstraction to a more lengthy URL which might include encodings and characters that may be confusing to the average reader.
+* Provides analytics data: Most URL shorteners include features to track the performance of links, giving information on click-throughs and traffic sources. Businesses can then use this information to inform their content distribution strategies.
+
+## Cons
+
+* Dead links: If the server of the tool that was used to shorten the URLs is down, all links will stop working.
+* Blocked URLs: Some platforms do not accept shortened URLs and a number of URL shorteners have been included on spam blacklists. Sites that have been blacklisted for sending spam tend to use URL shorteners to bypass the blacklist which has made many URL shorteners meet the same fate.
+* Facilitates phishing attacks: Since URLs shorteners obscure the address of a site with random numbers, shortened URLs are used by scammers to drive users to URLs and websites that look legitimate but are specifically designed to collect sensitive information.
+
+## API Information
+
+I have used <https://shrtco.de/> for the implementation of this project, shrtcode requires no authentication.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
